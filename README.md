@@ -9,7 +9,6 @@
 ```
 !plugin get https://github.com/the-lazy-me/SillyTavernPlugin.git
 ```
-或查看详细的[插件安装说明](https://github.com/RockChinQ/QChatGPT/wiki/5-%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8)
 
 ## 插件使用
 
