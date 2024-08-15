@@ -101,7 +101,7 @@ class SillyTavernProcessor:
 
         data = [
             {
-                "role": "system",
+                "role": "user",
                 "content": f"Write {name}'s next reply in a fictional chat between {name} and User. Write 1 reply only in internet RP style, italicize actions, and avoid quotation marks. Use markdown. Be proactive, creative, and drive the plot and conversation forward. Write at least 1 paragraph, up to 4. Always stay in character and avoid repetition."
             },
             {
@@ -146,6 +146,7 @@ class SillyTavernProcessor:
 
         # 将prompt中所有的{{char}}替换为角色名
         for i in range(len(prompt['prompt'])):
+            print("当前正在处理的是", name)
             prompt['prompt'][i]['content'] = prompt['prompt'][i]['content'].replace('{{char}}', name)
 
         # 生成 JSON 文件
