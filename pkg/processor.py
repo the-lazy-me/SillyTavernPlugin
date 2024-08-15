@@ -146,7 +146,6 @@ class SillyTavernProcessor:
 
         # 将prompt中所有的{{char}}替换为角色名
         for i in range(len(prompt['prompt'])):
-            print("当前正在处理的是", name)
             prompt['prompt'][i]['content'] = prompt['prompt'][i]['content'].replace('{{char}}', name)
 
         # 生成 JSON 文件
