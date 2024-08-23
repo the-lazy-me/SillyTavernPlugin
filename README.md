@@ -44,3 +44,11 @@
 最好的：claude-3-opus-20240229
 
 一般的：claude-3-sonnet-20240229，gemini-1.5-pro-latest，gemini-1.5-flash-latest
+
+## 友情资源
+
+168个人格预设合集(SFW，内容未经充分测试)
+
+下载链接：https://pan.lazyshare.top/s/rEH0
+
+密码：20240813
